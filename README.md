@@ -98,8 +98,7 @@ sudo logrotate -f /etc/logrotate.d/asarotate
 ---
 
 ### 👨‍💻 Author
-Mario Tagaras
-Florida State University Alum
+Mario Tagaras | Florida State University Alum
 
 
 
