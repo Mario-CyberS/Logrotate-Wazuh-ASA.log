@@ -82,12 +82,12 @@ You should see the logrotate command listed for 2:00 AM.
 
 ---
 
-## ✅ Expected Result
+### ✅ Expected Result
 Your siteasa.log file will rotate daily, with the previous version saved using a date-based name, compressed, and recreated with the correct permissions. The rsyslog service will restart automatically to avoid logging issues.
 
 ---
 
-📎 Notes
+### 📎 Notes
 Make sure the original log file (/var/log/siteasa.log) exists before enabling rotation.
 The rotate 1 setting keeps only one compressed backup — increase if needed.
 Test manually with:
