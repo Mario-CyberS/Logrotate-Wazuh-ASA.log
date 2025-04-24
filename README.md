@@ -22,7 +22,7 @@ This is crucial for long-term log management and system stability.
 
 ## 📚 Skills Learned  
 - Creating custom logrotate configuration files  
-- Automating log rotation with `cron`  
+- Automating log rotation with `crontab`  
 - Managing file permissions and compression policies  
 - Ensuring service restarts post-rotation (e.g., `rsyslog`)  
 - Working with system-level scheduled jobs
