@@ -11,10 +11,10 @@ To automatically rotate the `/var/log/siteasa.log` file created for Cisco ASA lo
 ## 🔍 Why Log Rotation?  
 When logs are continuously written (especially from firewalls like Cisco ASA), the log files can grow rapidly and consume disk space. **Log rotation** helps by:
 
-- 🔄 Automatically rotating logs on a schedule  
-- 🗂️ Creating backups with date-based filenames  
-- 📦 Compressing old logs to save space  
-- 🔐 Enforcing correct permissions on new log files  
+- Automatically rotating logs on a schedule  
+- Creating backups with date-based filenames  
+- Compressing old logs to save space  
+- Enforcing correct permissions on new log files  
 
 This is crucial for long-term log management and system stability.
 
@@ -80,12 +80,12 @@ You should see the logrotate command listed for 2:00 AM.
 
 ---
 
-### ✅ Expected Result
+### Expected Result
 Your siteasa.log file will rotate daily, with the previous version saved using a date-based name, compressed, and recreated with the correct permissions. The rsyslog service will restart automatically to avoid logging issues.
 
 ---
 
-### 📎 Notes
+### Notes
 Make sure the original log file (/var/log/siteasa.log) exists before enabling rotation.
 The rotate 1 setting keeps only one compressed backup — increase if needed.
 Test manually with:
