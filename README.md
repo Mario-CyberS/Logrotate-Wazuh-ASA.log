@@ -31,10 +31,8 @@ This is crucial for long-term log management and system stability.
 
 ## 🛠️ Tools Used  
 <div>
-  <img src="https://img.shields.io/badge/-Wazuh-0078D4?&style=for-the-badge&logo=Wazuh&logoColor=white" />
-  <img src="https://img.shields.io/badge/-RHEL-EE0000?&style=for-the-badge&logo=Red-Hat&logoColor=white" />
+  <img src="https://img.shields.io/badge/-crontab-6A5ACD?&style=for-the-badge&logo=cron&logoColor=white" />
   <img src="https://img.shields.io/badge/-logrotate-333333?&style=for-the-badge&logo=Linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Cisco_ASA-1BA0D7?&style=for-the-badge&logo=Cisco&logoColor=white" />
 </div>
 
 ---
