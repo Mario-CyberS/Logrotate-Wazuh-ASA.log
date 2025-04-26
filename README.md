@@ -33,6 +33,7 @@ This is crucial for long-term log management and system stability.
 <div>
   <img src="https://img.shields.io/badge/-crontab-6A5ACD?&style=for-the-badge&logo=cron&logoColor=white" />
   <img src="https://img.shields.io/badge/-logrotate-333333?&style=for-the-badge&logo=Linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/-RHEL-EE0000?&style=for-the-badge&logo=Red-Hat&logoColor=white" />
 </div>
 
 ---
